@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./images/splash_smooth_x4_5272x2144.png'); /* Add background image */
+    background-size: cover; /* Ensure it covers the entire screen */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    color: white; /* Ensure text is readable */
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for the header */
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for main content */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  main h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .gallery .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery .images img {
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .video iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid #ccc;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
